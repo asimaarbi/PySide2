@@ -8,6 +8,7 @@ if __name__ == "__main__":
 
     # Displaying html in the label
     label = QLabel("<font color=red size=40>Hello World</font>")
+    label.alignment()
 
     label.show()
     sys.exit(app.exec_())
